@@ -1,0 +1,14 @@
+<!created by ganesh>
+<html>
+    <body>
+        <h5>THIS Is My Mobile No : 123456789</h6>
+        <script>
+            document.addEventListener('copy', function(e){
+                console.log(e);
+                e.clipboardData.setData('text/plain', '987654321\r\n');
+                e.preventDefault();
+            });
+        </script>
+    </body>
+
+</html>
